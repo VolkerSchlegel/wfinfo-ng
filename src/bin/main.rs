@@ -53,7 +53,7 @@ fn run_detection(capturer: &Window, db: &Database) {
                 item.drop_name,
                 item.platinum,
                 item.ducats as f32 / 10.0,
-                if item.vaulted {"vaulted"} else {""},
+                if item.vaulted { "vaulted" } else { "" },
                 if Some(index) == best { "<----" } else { "" }
             );
         } else {

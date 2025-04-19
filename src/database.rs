@@ -84,7 +84,7 @@ impl Database {
                             drop_name,
                             platinum,
                             ducats,
-                            vaulted
+                            vaulted,
                         })
                     })
             })
